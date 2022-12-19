@@ -1,0 +1,54 @@
+body {
+    background-color: bisque;
+    border-radius: 8px;
+}
+.ul {
+    background-color: aquamarine;
+    border-radius: 6px;
+}
+.ol {
+    background-color: cadetblue;
+    border-radius: 6px;
+    padding-left: 20px;
+}
+.form {
+    background-color: aquamarine;
+    border-radius: 6px;
+    
+}
+
+.a {
+    color: aqua;
+    text-decoration: none;
+    transition: all .2s;
+
+}
+a:hover {
+    color: yellow;
+}
+.btn {
+    background-color: aqua;
+    padding: 20px 30px;
+    border-radius: 10px;
+    font-size: 16px;
+    text-align: center ;
+    cursor: pointer;
+}
+btn:hover {
+    color: blue;
+}
+.table {
+    width: 100%;
+
+}
+.table td {
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+table td:hover {
+    background-color: blue;
+}
+.table td:nth-child(2) {
+    color: aqua;
+}
